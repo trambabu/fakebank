@@ -1,0 +1,16 @@
+The code has been based on assumptions from the give requirement document.
+
+1) Code base has been tried to show the software development standards instead of implementation fully.
+2) Taken some freedom while developing the code.
+3) The application code development around 20% has not been finished yet.
+4) The decision taken to use Rest service API with JWT security
+5) Swagger 3 Has been considered to expose Rest end point API documentation and testing
+6) Spring boot 3 has been considered with Jdk 17
+7) Another bank running Debit order endpoint on customer accounts is only outstanding.
+8) But DTO and Transaction Type has been already considered for debit order process.
+9) No front end / UI has been developed,reason its not considered as a requirement.
+10) Code cleaning to be still required.
+11) Comments also has been mentioned.
+12) Spring batch for job scheduling library with functionality has been implemented.
+13) Spring simple email for SMTP email service using Gmail has been developed,  the service should be called whenever it required to send email notification to the user.
+14) Load-shedding and current employer work has been impacted to develop the full implementation / solution.
